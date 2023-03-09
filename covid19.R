@@ -42,9 +42,3 @@ Proba %>%
 ## probability of dying with diabetes knowing sex and hypertension. 
 Proba %>%filter(S.Finale=="décédé" & Diabète=="1") 
 
-library(FactoMineR)
-library(Factoshiny)
-
-#l’ACP en utilisant le jeu de données decathlon
-res.shiny=MCAshiny(covid19) # Principal Component Analysis with Factoshiny
-
